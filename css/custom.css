@@ -162,7 +162,9 @@ section.banner_form .form_content {
 section.banner_form .form_content .row {
   position: relative;
   z-index: 9;
+  align-items: center;
 }
+
 section.banner_form {
   position: relative;
   top: -100px;
@@ -595,7 +597,10 @@ button.btn-from {
 @media only screen and (min-width: 300px) and (max-width: 575px) {
   
 }
-  @media only screen and (min-width: 300px) and (max-width: 767px) {  
+  @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    label.selector-item_label {
+      margin-top: 20px;
+    }
     .section-spacer {
       padding: 40px 0px;
   }  
@@ -719,7 +724,18 @@ section.fun_fact h5.fade_text {
       font-size: 10px;
     }
     .selector-item_label{
-      padding: 14px;
+      padding: 10px 14px;
+      font-size: 13px;
+    }
+    .form_content .form_group input{
+      padding: 10px 0px;
+    }
+    .form_content .form_group i{
+      width: 45px;
+    height: 45px;
+    }
+    button.btn_donate{
+      padding: 13px 0px;
     }
   .navbar-brand {
     background: #fff;
